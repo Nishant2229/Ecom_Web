@@ -1,0 +1,56 @@
+   .button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+    color: white;
+    padding: 0.75rem 1rem;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: transparent;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: #2e2e2e;
+  }
+  
+  .icon {
+    height: 1.35rem;
+    width: 1.35rem;
+    margin-right: 0.5rem;
+  }
+  
+  .badge {
+    padding: 0.25rem 1rem;
+    font-weight: bold;
+  }
+
+  @media (max-width: 700px) {
+    .button {
+      font-size: small;
+      margin: 2px;
+      padding: 5px;
+    }
+  
+    .navlinks {
+      font-size: small;
+      margin: 5px;
+    }
+  
+    .icon {
+      width: 1rem;
+      height: 1rem;
+      margin-right: 0.5rem;
+    }
+  
+    .badge {
+      padding: 5px;
+      margin: auto;
+      font-weight: 600;
+    }
+  }
+  
