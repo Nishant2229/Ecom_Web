@@ -8,11 +8,11 @@ const Footer = () => {
         <div className={classes.footerText}>
           &copy; 2023 Project By{" "}
           <a
-            href="https://thevivekraut.vercel.app/"
+            href="https://nishant-portfolio-eight.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Thevivekraut
+            NishantSahu1
           </a>
         </div>
         <div className={classes.footerLinks}>
@@ -30,7 +30,7 @@ const Footer = () => {
         <ul className={classes.footerIconsList}>
           <li>
             <a
-              href="https://www.linkedin.com/in/thevivekraut"
+              href="https://www.linkedin.com/in/nishant-sahu-398206228/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -42,25 +42,13 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://github.com/DevloperVivek"
+              href="https://github.com/Nishant2229"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
                 src="https://img.icons8.com/ios-filled/50/000000/github.png"
                 alt="GitHub"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/thevivekraut/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png"
-                alt="Instagram"
               />
             </a>
           </li>
