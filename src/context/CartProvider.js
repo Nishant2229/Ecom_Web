@@ -10,7 +10,7 @@ const CartProvider = (props) => {
 
   const email = localStorage.getItem("userEmail") ?? "";
   const userId = email.split("@")[0];
-  const url = `https://ecom-react-site-default-rtdb.asia-southeast1.firebasedatabase.app/products/${userId}.json`;
+  const url = `https://shopping-2e169-default-rtdb.firebaseio.com/products/${userId}.json`;
 
   const cartReducer = (state, action) => {
     if (action.type === "ADD") {

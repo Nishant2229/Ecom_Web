@@ -2,8 +2,7 @@ import React from "react";
 import classes from "../Signup/Signup.module.css";
 
 const Contact = () => {
-  const url =
-    "https://ecom-react-site-default-rtdb.asia-southeast1.firebasedatabase.app/contacts/";
+  const url = "https://shopping-2e169-default-rtdb.firebaseio.com/contacts/";
   const email = localStorage.getItem("userEmail").split("@");
   const newUrl = url + email[0] + ".json";
 

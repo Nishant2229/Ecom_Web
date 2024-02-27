@@ -11,8 +11,7 @@ const Cart = (props) => {
   const totalAmount = cartCtx.totalAmount;
   const hasItems = cartCtx.items?.length ?? 0;
 
-  const apiurl =
-    "https://ecom-react-site-default-rtdb.asia-southeast1.firebasedatabase.app/products/";
+  const apiurl = "https://shopping-2e169-default-rtdb.firebaseio.com/products/";
   const userEmail = localStorage.getItem("userEmail");
   const url = `${apiurl}${userEmail.split("@")[0]}.json`;
 
